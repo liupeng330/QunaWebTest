@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Map>
+	<UIMaps>
+		<UIMap Id="ResultInfo">
+			<By>XPath</By>
+			<!--<ToFind>//div[@id='progTip']//span[@class='dec']</ToFind>-->
+			<ToFind>//div[@id='progTip']</ToFind>
+		</UIMap>
+		<UIMap Id="ResultTable">
+			<By>XPath</By>
+			<ToFind>//div[@id='hdivResultPanel']</ToFind>
+		</UIMap>
+	</UIMaps>
+</Map>

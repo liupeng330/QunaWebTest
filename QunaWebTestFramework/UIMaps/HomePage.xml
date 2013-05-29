@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Map>
+	<UIMaps>
+		<UIMap Id="OneWayRadioButton">
+			<By>Id</By>
+			<ToFind>searchTypeSng</ToFind>
+		</UIMap>
+		<UIMap Id="CityFromInput">
+			<By>Name</By>
+			<ToFind>fromCity</ToFind>
+		</UIMap>
+		<UIMap Id="CityToInput">
+			<By>Name</By>
+			<ToFind>toCity</ToFind>
+		</UIMap>
+		<UIMap Id="DepartureTimeInput">
+			<By>Name</By>
+			<ToFind>fromDate</ToFind>
+		</UIMap>
+		<UIMap Id="SearchButton">
+			<By>XPath</By>
+			<ToFind>//*[@class='searchButton ralignbtn']</ToFind>
+		</UIMap>
+	</UIMaps>
+</Map>
